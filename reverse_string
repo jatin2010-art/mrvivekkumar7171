@@ -1,0 +1,8 @@
+def reverse_string(s):
+    return s[::-1]  # Slice to reverse the string
+
+# Example usage
+text = "Hello World"
+reversed_text = reverse_string(text)
+print(f"Original: {text}")
+print(f"Reversed: {reversed_text}")
